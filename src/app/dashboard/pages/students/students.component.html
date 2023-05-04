@@ -1,0 +1,19 @@
+<div class="app-layout-container">
+    <div class="section-container">
+      <h1>Listado de Alumnos</h1>
+      <section>
+          <div *ngFor="let student of studentList$ | async" class="card mb-4" style="width: 15rem;">
+              <img class="card-img-top" src="../../../assets/profile-default.webp" width="100px" height="150px" alt="Card image cap">
+              <div class="student-data">
+                <strong>{{ student.firstName + ' ' + student.lastName  }}</strong>
+                <span>DNI: {{ student.id }}</span>
+                <span>Fecha de entrega: {{ student.date_of_delivery }}</span>
+                <span>Final: {{ student.qualification }}</span>
+                <span [ngClass]="student.isApproved ? 'approved' : 'not-approved'">
+                  {{ student.isApproved ? '¡Aprobado!' : 'Desaprobado' | uppercase }}
+                </span>
+              </div>
+          </div>
+      </section>
+    </div>
+</div>

@@ -1,0 +1,53 @@
+{
+  "users": [],
+  "teachers": [
+    {
+      "id": "1",
+      "name": "Carlos",
+      "surname": "Calvo",
+      "dni": "42123222",
+      "courseAssigned": "Javascript"
+    },
+    {
+      "id": 2,
+      "name": "Yamila",
+      "surname": "Lopez",
+      "dni": "42123222",
+      "courseAssigned": "Node JS"
+    },
+    {
+      "id": 3,
+      "name": "Cristian",
+      "surname": "Fernandez",
+      "dni": "42123222",
+      "courseAssigned": "Ciberseguridad"
+    }
+  ],
+  "students": [
+    {
+      "id": 42176322,
+      "firstName": "Carlos",
+      "lastName": "Calvo",
+      "dni": "42123222",
+      "date_of_delivery": "23/05/2023",
+      "qualification": 7,
+      "isApproved": null
+    },
+    {
+      "id": 42121333,
+      "firstName": "Rogelia",
+      "lastName": "Buendia",
+      "date_of_delivery": "23/05/2023",
+      "qualification": 10,
+      "isApproved": ""
+    },
+    {
+      "id": 398892223,
+      "firstName": "Armando",
+      "lastName": "Paredes",
+      "date_of_delivery": "23/05/2023",
+      "qualification": 4,
+      "isApproved": null
+    }
+  ]
+}

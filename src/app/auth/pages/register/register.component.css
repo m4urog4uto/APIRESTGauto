@@ -1,0 +1,21 @@
+.app-register-component {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+}
+
+.inputs-container {
+    display: flex;
+}
+
+section {
+    margin-right: 20px;
+}

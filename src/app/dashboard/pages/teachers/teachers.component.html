@@ -1,0 +1,15 @@
+<div class="app-layout-container">
+    <div class="section-container">
+      <h1>Listado de Profesores</h1>
+      <section>
+          <div *ngFor="let teacher of teacherList$ | async" class="card mb-4" style="width: 15rem;">
+              <img class="card-img-top" src="../../../assets/profile-default.webp" width="100px" height="150px" alt="Card image cap">
+              <div class="student-data">
+                <strong>{{ teacher.name + ' ' + teacher.surname  }}</strong>
+                <span>DNI: {{ teacher.dni }}</span>
+                <span>Curso Asignado: {{ teacher.courseAssigned }}</span>
+              </div>
+          </div>
+      </section>
+    </div>
+</div>

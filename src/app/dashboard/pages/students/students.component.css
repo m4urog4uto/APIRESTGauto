@@ -1,0 +1,56 @@
+:host {
+    width: 100%;
+}
+
+.app-layout-container {
+    height: calc(100vh - 56px);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.section-container {
+    height: calc(100vh - 56px);
+    width: 100%;
+    overflow-y: scroll;
+    padding: 20px 0;
+}
+
+section {
+    display: flex;
+    padding: 30px;
+    max-width: 1200px;
+    flex-wrap: wrap;
+}
+
+.student-data {
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+}
+
+.card {
+    margin-right: 20px;
+}
+
+.approved {
+    color: rgb(6, 196, 6);
+}
+
+.not-approved {
+    color: rgb(238, 38, 38);
+}
+
+.list-star {
+    display: flex;
+    flex-direction: column;
+}
+
+h1 {
+    margin-left: 28px;
+}
+
+.list-star h4 {
+    margin-bottom: 20px;
+}

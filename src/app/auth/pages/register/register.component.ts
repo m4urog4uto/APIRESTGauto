@@ -10,13 +10,13 @@ import { Router } from '@angular/router';
   styleUrls: ['./register.component.css']
 })
 export class RegisterComponent {
-  nameCtrl = new FormControl('Mauro', [Validators.required]);
-  surnameCtrl = new FormControl('Gauto', [Validators.required]);
-  userCtrl = new FormControl('mauro1234', [Validators.required]);
-  passwordCtrl = new FormControl('123456', [Validators.required]);
-  confirmPasswordCtrl = new FormControl('123456', [Validators.required]);
-  emailCtrl = new FormControl('m@m.com', [Validators.required]);
-  roleCtrl = new FormControl('Profesor', Validators.required);
+  nameCtrl = new FormControl('', [Validators.required]);
+  surnameCtrl = new FormControl('', [Validators.required]);
+  userCtrl = new FormControl('', [Validators.required]);
+  passwordCtrl = new FormControl('', [Validators.required]);
+  confirmPasswordCtrl = new FormControl('', [Validators.required]);
+  emailCtrl = new FormControl('', [Validators.required]);
+  roleCtrl = new FormControl('', Validators.required);
 
   registerForm = new FormGroup({
     name: this.nameCtrl,
